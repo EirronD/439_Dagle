@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Contrast Checker</title>
+    <link rel="stylesheet" href="colorcheck.css"/>
+</head>
+<body>
+
+<div class="container">
+    <h1>Color Contrast Checker</h1>
+
+    <div class="input-colors">
+        <div class="color-container">
+            <label for="text-color">Text Color: </label>
+            <input type="color" id="text-color" value="#000000"/>
+        </div>
+        <div class="color-container">
+            <label for="bg-color">Background Color: </label>
+            <input type="color" id="bg-color" value="#FCA311"/>
+        </div>
+    </div>
+
+    <div class="text-preview">
+        <div id="preview">The quick brown fox jumps over the lazy dog.</div>
+        <p id="rating">Demo Text</p>
+    </div>
+</div>
+
+<script src="colorcheck.js"></script>
+</body>
+</html>
